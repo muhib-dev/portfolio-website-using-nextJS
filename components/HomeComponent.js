@@ -14,7 +14,8 @@ export default function HomeComponent() {
           </h1>
           <a
             className="inline-block rounded-full bg-[#410083] py-2 px-10 mt-8 text-white text-base transition-all delay-100 hover:bg-[#7012CE]"
-            href="#"
+            href="https://docs.google.com/document/d/1MWCXVYZEl6aXu4zZst2fEW9qLHkViZyPUMhvJt99Xf0/edit?usp=sharing"
+            target="_blank"
           >
             RESUME
           </a>
@@ -40,7 +41,10 @@ export default function HomeComponent() {
         </p>
       </section>
 
-      <section className="flex flex-col items-center text-center my-20 py-16">
+      <section
+        id="technology"
+        className="flex flex-col items-center text-center my-20 py-16"
+      >
         <div>
           <img src="/images/tech.svg" alt="tech" className="w-full" />
         </div>
@@ -61,7 +65,10 @@ export default function HomeComponent() {
         </div>
       </section>
 
-      <section className="flex flex-col items-center my-36 py-16">
+      <section
+        id="experience"
+        className="flex flex-col items-center my-36 py-16"
+      >
         <h1 className="max-w-xl font-bold text-3xl text-[#45526E]">
           Where I’ve Worked
         </h1>
@@ -88,7 +95,7 @@ export default function HomeComponent() {
         </div>
       </section>
 
-      <section id="works" className="flex flex-col items-center my-48 py-20">
+      <section id="work" className="flex flex-col items-center my-48 py-20">
         <h1 className="max-w-xl font-bold text-3xl text-[#45526E]">
           Noteworthy Projects
         </h1>

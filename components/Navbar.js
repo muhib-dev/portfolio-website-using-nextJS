@@ -14,67 +14,99 @@ export default function Navbar() {
         <div className="flex justify-between items-center gap-4 text-gray-500">
           <a
             className="ring-1 ring-gray-400 h-6 w-6 rounded-full flex items-center justify-center"
-            href="#"
+            href="https://github.com/muhib-dev"
+            target="_blank"
           >
             <FaGithub />
           </a>
           <a
             className="ring-1 ring-gray-400 h-6 w-6 rounded-full flex items-center justify-center"
-            href="#"
+            href="https://www.linkedin.com/in/muhibullah-khandaker/"
+            target="_blank"
           >
             <FaLinkedin />
           </a>
           <a
             className="ring-1 ring-gray-400 h-6 w-6 rounded-full flex items-center justify-center"
-            href="#"
+            href="https://twitter.com/Muhebollah"
+            target="_blank"
           >
             <FaTwitter />
           </a>
           <a
             className="ring-1 ring-gray-400 h-6 w-6 rounded-full flex items-center justify-center"
-            href="#"
+            href="https://www.facebook.com/muhibollah.kh"
+            target="_blank"
           >
             <FaFacebook />
           </a>
           <a
             className="ring-1 ring-gray-400 h-6 w-6 rounded-full flex items-center justify-center"
-            href="#"
+            href="mailto:muhebollah.diu@gmail.com"
           >
             <FaEnvelope />
           </a>
         </div>
         <nav>
-          <ul className="flex justify-between items-center gap-3 text-gray-700">
+          <ul className="flex justify-between items-center gap-5 text-gray-700">
             <li>
               <Link
+                className="cursor-pointer"
                 activeClass="text-purple-900 font-bold"
                 to="home"
                 spy={true}
                 smooth={true}
                 offset={-150}
               >
-                HOME
+                Home
               </Link>
             </li>
             <li>
               <Link
+                className="cursor-pointer"
                 activeClass="text-purple-900 font-bold"
                 to="about"
                 spy={true}
                 smooth={true}
                 offset={-100}
               >
-                ABOUT
+                About
               </Link>
             </li>
             <li>
               <Link
+                className="cursor-pointer"
                 activeClass="text-purple-900 font-bold"
-                to="works"
+                to="technology"
                 spy={true}
                 smooth={true}
+                offset={-150}
               >
-                WORKS
+                Technology
+              </Link>
+            </li>
+            <li>
+              <Link
+                className="cursor-pointer"
+                activeClass="text-purple-900 font-bold"
+                to="experience"
+                spy={true}
+                smooth={true}
+                offset={-150}
+              >
+                Experience
+              </Link>
+            </li>
+
+            <li>
+              <Link
+                className="cursor-pointer"
+                activeClass="text-purple-900 font-bold"
+                spy={true}
+                smooth={true}
+                to="work"
+              >
+                Work
               </Link>
             </li>
           </ul>

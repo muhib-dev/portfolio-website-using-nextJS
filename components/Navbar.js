@@ -16,6 +16,7 @@ export default function Navbar() {
             className="ring-1 ring-gray-400 h-6 w-6 rounded-full flex items-center justify-center"
             href="https://github.com/muhib-dev"
             target="_blank"
+            rel="noreferrer"
           >
             <FaGithub />
           </a>
@@ -23,6 +24,7 @@ export default function Navbar() {
             className="ring-1 ring-gray-400 h-6 w-6 rounded-full flex items-center justify-center"
             href="https://www.linkedin.com/in/muhibullah-khandaker/"
             target="_blank"
+            rel="noreferrer"
           >
             <FaLinkedin />
           </a>
@@ -30,6 +32,7 @@ export default function Navbar() {
             className="ring-1 ring-gray-400 h-6 w-6 rounded-full flex items-center justify-center"
             href="https://twitter.com/Muhebollah"
             target="_blank"
+            rel="noreferrer"
           >
             <FaTwitter />
           </a>
@@ -37,6 +40,7 @@ export default function Navbar() {
             className="ring-1 ring-gray-400 h-6 w-6 rounded-full flex items-center justify-center"
             href="https://www.facebook.com/muhibollah.kh"
             target="_blank"
+            rel="noreferrer"
           >
             <FaFacebook />
           </a>
